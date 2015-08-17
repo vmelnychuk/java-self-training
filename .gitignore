@@ -1,3 +1,7 @@
 ## Gradle parts
 .gradle
 build
+
+## IDEA parts
+.idea
+*.iml
