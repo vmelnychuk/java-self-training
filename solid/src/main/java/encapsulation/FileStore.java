@@ -11,6 +11,16 @@ public class FileStore {
 
     private String workingDirectory;
 
+    public FileStore(String workingDirectory) {
+        if (workingDirectory == null) {
+            throw new IllegalArgumentException("workingDirectory should be not null");
+        }
+        if (!Files.isDirectory(Paths.get(workingDirectory))) {
+            throw new IllegalArgumentException("workingDirectory should exist");
+        }
+        this.workingDirectory = workingDirectory;
+    }
+
     public String getWorkingDirectory() {
         return workingDirectory;
     }
