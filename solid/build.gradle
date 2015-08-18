@@ -12,4 +12,5 @@ task wrapper(type: Wrapper) {
 }
 
 dependencies {
+    testCompile 'junit:junit:4.12'
 }
