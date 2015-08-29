@@ -20,6 +20,7 @@ Values:
 - primary
     - ability to tolerate and facilitate outgoing change, that is difference between soft and hard wares
     - keep it flexible
+    - continue to meet customer needs through software lifetime
 - secondary
     - behaviour of software
     - current soft meets current needs of current user
