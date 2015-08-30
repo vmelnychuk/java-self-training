@@ -33,7 +33,7 @@ Gather together things that have same reasons to change and separate things that
 Separate to different files, or functions, or inner classes.
 
 Invert dependencies.
-Facade.
+__Facade pattern__
 Interface segregation.
 
 Perfect solutions are for mathematicians and fiction writes, manage mutual exclusive forces.
